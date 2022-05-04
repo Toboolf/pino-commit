@@ -2,4 +2,4 @@
 
 message="$@"
 current_branch="$(git branch --show-current)"
-git commit -m "[$current_branch $message] $@"
+git commit -m "[$current_branch] $message"
